@@ -2,22 +2,8 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-    
-        const  length  = arr;
-        let minIndex;
-        for (let i = 0; i < length - 1; i++) {
-          minIndex = i;
-         for (let j = i; j < length; j++) {
-            if (compare(arr[minIndex], arr[j]) === Compare.BIGGER_THAN) {
-                minIndex = j;
-            }
-        }
-        if (i !== minIndex) {
-            swap(arr, i, minIndex);
-        }
-    }
-    return arr;
-}
-    
-  return [];
+ 
+   const item = [];
+   item.sort(( a, b ) => a.ratingRevievs > b.ratingRevievs ? 1 : -1);
+    return item
 }
